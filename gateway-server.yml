@@ -16,9 +16,10 @@ spring:
             - Path=/api/v1/catalog/**
 
 
+
 eureka:
   client:
-    register-with-eureka: true
+    register-with-eureka: false
     fetch-registry: true
     registry-fetch-interval-seconds: 5
     health-check:
