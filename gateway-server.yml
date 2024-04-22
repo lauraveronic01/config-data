@@ -19,7 +19,7 @@ spring:
 
 eureka:
   client:
-    register-with-eureka: false
+    register-with-eureka: true #el gateway en si no se tendria que registar en eureka pero para que sea facil detectar su uso lo tengo en true
     fetch-registry: true
     registry-fetch-interval-seconds: 5
     health-check:

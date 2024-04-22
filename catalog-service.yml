@@ -4,6 +4,15 @@ server:
 spring:
   application:
     name: catalog-service
+  mongodb:
+    embedded:
+      version: 7.0.7
+    data:
+      mongodb:
+        database: test
+        port: 27017
+
+  #zipkin
 
 eureka:
   client:
@@ -14,3 +23,8 @@ eureka:
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 10
+
+
+
+
+#resilience4j:
