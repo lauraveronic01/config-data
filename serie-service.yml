@@ -22,7 +22,7 @@ spring:
       port: 27017
 
 queue:
-  serie:
+  series:
     name: serie-queue
     exchange: serie-exchange
     routing-key: serie
