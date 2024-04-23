@@ -14,12 +14,11 @@ spring:
     name: serie-service
   mongodb:
     embedded:
-      version: 4.0.2
+      version: 4.0.2 # Version de base de dato embebida Mongo
   data:
     mongodb:
-      host: 52.202.239.67
-      database: test
-      port: 27017
+      database: test # Nombre de la base de datos
+      port: 27017 # Puerto de base de datos
 
 queue:
   series:
